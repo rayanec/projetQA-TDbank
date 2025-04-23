@@ -7,7 +7,7 @@ Test Set - Suite de tests
 
 [✅TC03 :: Mauvais mot de passe / Wrong password](tests/mauvais_mot_de_passe.md)
 
-[✅TC004 :: Lien "Mot de passe oublié" / "Forgot password" link](tests/mot_de_passe_oublie.md)
+[✅TC04 :: Lien "Mot de passe oublié" / "Forgot password" link](tests/mot_de_passe_oublie.md)
 
 [✅TC05 :: Changement de langue / Language switch](tests/changement_de_langue.md)
 
