@@ -15,8 +15,6 @@ Script test API et test de performance
 
 **Script Cypress** - pour tester un appel à l'API de connexion :
 
-    ```javascript```
-    CopierModifier
     describe('TD EasyWeb API Tests', () => {
         it('Successfully log in with correct credentials', () => {
             cy.request({
@@ -50,7 +48,6 @@ Script test API et test de performance
             });
         });
     });
-    ```
     
 
 * * *
@@ -67,8 +64,6 @@ On peut utiliser `**requests**` pour interagir avec l'API en Python.
 
 **Script Python** avec `**requests**` - API de connexion :
 
-    ```python```
-    CopierModifier
     import requests
     
     def test_login_correct_credentials():
@@ -100,7 +95,6 @@ On peut utiliser `**requests**` pour interagir avec l'API en Python.
     if __name__ == "__main__":
         test_login_correct_credentials()
         test_login_incorrect_credentials()
-    ```
     
 
 * * *
@@ -113,8 +107,6 @@ Cypress n'est pas conçu pour des tests de charge massifs, mais on peux l'utilis
 
 Cypress te permet de mesurer les **temps de réponse** à l'aide de la commande `cy.request()`.
 
-    ```javascript
-    CopierModifier
     describe('TD EasyWeb Login - Performance Test', () => {
         it('Should login successfully within 2 seconds', () => {
             const startTime = Date.now();
@@ -137,4 +129,3 @@ Cypress te permet de mesurer les **temps de réponse** à l'aide de la commande 
             });
         });
     });
-    ```
